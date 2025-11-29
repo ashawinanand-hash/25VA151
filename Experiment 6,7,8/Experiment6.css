@@ -1,0 +1,50 @@
+            .head {
+                color: aliceblue;
+                background-color: black;
+                text-align: center;
+                height: 65px;
+                font-size: 50px;
+                margin-top: 15px;
+            }
+
+            .border {
+                border: 2px solid black;
+                padding: 1px 5px;
+            }
+
+            .img {
+                margin: 10px 10px;
+
+            }
+
+            .content {
+                border: 2px solid aliceblue;
+
+            }
+
+            .price {
+                color: rgb(87, 157, 16)
+            }
+
+            .description {
+                color: darkgray;
+            }
+
+            .button1 {
+                color: white;
+                cursor: pointer;
+                background-color: rgb(8, 51, 117);
+                padding: 15px 150px;
+                font-size: 20px;
+                border-radius: 5px;
+            }
+
+            .oldprice {
+                color: darkgray;
+                text-decoration: line-through;
+                margin-left: 5px;
+            }
+
+            .hello {
+                border: 15px solid aliceblue;
+            }
