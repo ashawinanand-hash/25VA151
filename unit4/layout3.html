@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3-GRID</title>
+    <style>
+        .box{
+        display:grid;
+        height:4rem;
+        background-color: aqua;
+        align-items: center;
+        justify-items: center;
+        margin: 1rem;       
+    }
+    #box2{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:1rem;
+        margin:1rem;
+         align-items: center;
+        justify-items: center;
+       
+    }
+    .box2{
+        height:16rem;
+        width:16rem;
+        background-color: lightgreen;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        box1
+    </div>
+    <div class="box">
+        box2    </div>
+    <div class="box">
+        
+        box3    </div>
+        <div id="box2"
+        >
+    <div class="box2">
+        box4    </div>      
+    <div class="box2">
+        box5    </div> 
+    <div class="box2">
+        box6    </div>  
+        </div>  
+    <div class="box">
+        box7    </div>         
+</body>
+</html>
